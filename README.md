@@ -1,57 +1,72 @@
-# Project Name
+# PROJECT: TESTING PRACTICE
 
-> One paragraph statement about the project.
 
-![screenshot](./app_screenshot.png)
+<br />
+<p align="center">
+  <a href="https://github.com/simandebvu/javascript-unit-testing-practice">
+    <img src="js-image.png" alt="Logo" width="80" height="80">
+  </a>
 
-Additional description about the project and its features.
+  <h3 align="center">JEST : Testing </h3>
+
+  <p align="center">
+    Testing with JEST.
+    <br />
+    <a href="https://github.com/simandebvu/javascript-unit-testing-practice"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/simandebvu/javascript-unit-testing-practice/issues/">Report Bug</a>
+    ·
+    <a href="https://github.com/simandebvu/javascript-unit-testing-practice/">Request Feature</a>
+  </p>
+</p>
+
+> Writing tests for the following functions, and then make the tests pass!
+
+- `capitalize(string)` takes a string and returns that string with the first character capitalized.
+- `reverseString(string)` takes a string and returns it reversed.
+- A `calculator` object that contains the basic operations: `add, subtract, divide,` and `multiply`.
+- Caesar Cipher.
+- Array Analysis. Write a function that takes an array of numbers and returns an object with the following properties: `average, min, max,` and `length`.
+
+![screenshot](./app-screenshot.gif)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Javascript
+- Node
+- Jest
+- VSCode
+- ESLint
+- Stylelint
+- Github Actions
 
-## Live Demo
+## Prerequisites
 
-[Live Demo Link](https://livedemo.com)
+- Node ^10
+- npm ^6
+  
+## Running Locally
 
+Clone the repo:
 
-## Getting Started
+`git clone https://github.com/simandebvu/javascript-unit-testing-practice.git`
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+Inside the root folder of the project, install the node packages:
 
+`npm install`
 
-To get a local copy up and running follow these simple example steps.
+Go to the root folder and run the npm server script:
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
+`npm test`
+  
 ## Authors
 
-👤 **Author1**
+👤 **Shingirayi Mandebvu**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@simandebvu](https://github.com/simandebvu)
+- Twitter: [@simandebvu](https://twitter.com/simandebvu)
+- Linkedin: [linkedin](https://linkedin.com/in/simandebvu)
 
 ## 🤝 Contributing
 
@@ -65,9 +80,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
 
 ## 📝 License
 
